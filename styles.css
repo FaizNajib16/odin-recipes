@@ -1,0 +1,53 @@
+/* types */
+h1 {
+    color: orange;
+    font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    color: black;
+    background-color: grey;
+    font-family: "lucida console", monospace;
+}
+
+h3 {
+    color: #d54215;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+a {
+    font-family: "courier new", serif;
+}
+
+li {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+ul li {
+    color:#d54215;
+}
+
+ol li {
+    background-color: orange;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+img {
+    height: auto;
+    width: 700px;
+}
+
+/* Ids */
+#food {
+    color: #d54215;
+    font-family: 'Courier New', Courier, sans-serif;
+    background-color: orange;
+}
+
+/* class */
+.para {
+    font-weight: bold;
+}
