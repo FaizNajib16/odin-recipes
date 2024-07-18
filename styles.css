@@ -1,13 +1,24 @@
 /* types */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: wheat;
+    padding: 20px 10px; 
+}
+
 h1 {
     color: orange;
     font-family: Helvetica, sans-serif;
+    text-align: center;
 }
 
 h2 {
     color: black;
-    background-color: grey;
     font-family: "lucida console", monospace;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -21,33 +32,50 @@ a {
 
 li {
     font-family: 'Lucida Sans', sans-serif;
+    color:#d54215;
 }
 
 ul li {
     color:#d54215;
 }
 
-ol li {
-    background-color: orange;
+ul li a{
+    margin: 0px 20px;
 }
 
-body {
-    background-color: rgb(241, 241, 241);
+.recipes {
+    list-style-type: none;
+    text-align: center;
+    display: flex;  
 }
 
 img {
     height: auto;
     width: 700px;
+    display: block;
+    padding: 5px;
+    margin: 50px auto;
+    border: 1px black dashed;
 }
 
 /* Ids */
 #food {
     color: #d54215;
     font-family: 'Courier New', Courier, sans-serif;
-    background-color: orange;
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    padding: 10px 0px;
 }
 
 /* class */
 .para {
     font-weight: bold;
+    color:#d54215;
+}
+
+.content {
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 1px #d54215 solid;
+    margin-bottom: 20px;
 }
